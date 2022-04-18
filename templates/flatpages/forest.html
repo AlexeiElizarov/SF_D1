@@ -1,0 +1,14 @@
+{% extends 'flatpages/default.html' %}
+{% load static %}
+
+{% block title %}
+     {{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="{% static '/css/forest_page.css' %}" />
+    <h2 class="forest">{{ flatpage.content }}</h2>
+    <img src="{% static 'photo/forest/1.jpg' %}" width=300px height=300px alt="">
+    <img src="{% static 'photo/forest/2.jpg' %}" width=300px height=300px alt="">
+    <img src="{% static 'photo/forest/3.jpg' %}" width=300px height=300px alt="">
+{% endblock %}

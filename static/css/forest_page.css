@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.forest {
+    font-family : 'Open Sans';
+    font-size: 55px;
+}

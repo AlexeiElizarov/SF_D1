@@ -1,0 +1,14 @@
+{% extends 'flatpages/default.html' %}
+{% load static %}
+
+{% block title %}
+     {{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.content }}</h2>
+    <h2>{{ flatpage.content }}</h2>
+    <img src="{% static 'photo/ocean/1.jpg' %}" width=300px height=300px alt="">
+    <img src="{% static 'photo/ocean/2.jpg' %}" width=300px height=300px alt="">
+    <img src="{% static 'photo/ocean/3.jpg' %}" width=300px height=300px alt="">
+{% endblock %}
